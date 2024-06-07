@@ -27,15 +27,6 @@ public class Case1 {
         System.out.println("CASE 4: ");
         System.out.println("ASDJHAKLSDJAS");
     }
-    //CASE 4 -O RH deverá realizar uma ligação, com no máximo 03 tentativas para cada candidato selecionado e caso o candidato atenda, deve-se imprimir:
-    //"CONSEGUIMOS CONTATO COM _
-    //[CANDIDATO]
-    // ``` APÓS **_**
-    //[TENTATIVA]`** TENTATIVA(S)" ;**
-
-    //Do contrário imprima: "NÃO CONSEGUIMOS CONTATO COM O _
-    //[CANDIDATO]
-    //_".
     public static void ligacaoCandidatos(String respostaCandidato) {
         int tentativa = 0;
         String candidato = "";
@@ -47,7 +38,7 @@ public class Case1 {
         }
     }
 
-    //método auxiliar
+    //METODO DE NUMERO ALEATORIO
     static boolean atender() {
         return new Random().nextInt(3) == 1;
     }
@@ -88,7 +79,7 @@ public class Case1 {
             System.out.println("AGUARDANDO RESULTADO DOS DEMAIS CANDIDATOS.");
         }
     }
-
+    //METODO RANDOM PARA GERAR UM VALOR ALEATORIO
     static double valorPretendido() {
         return ThreadLocalRandom.current().nextDouble(1800, 2200);
     }
