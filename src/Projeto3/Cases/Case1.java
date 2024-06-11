@@ -24,7 +24,6 @@ public class Case1 {
         System.out.println();
         System.out.println();
 
-        System.out.println("CASE 4: ");
     }
     public static void ligacaoCandidatos(String respostaCandidato) {
         int tentativa = 0;
@@ -35,11 +34,6 @@ public class Case1 {
         } else {
             System.out.println("NÃO CONSEGUIMOS CONTATO COM O " + candidato);
         }
-    }
-
-    //METODO DE NUMERO ALEATORIO
-    static boolean atender() {
-        return new Random().nextInt(3) == 1;
     }
 
     //CASE 3 - IMPRIMIR LISTA DE CANDIDATOS SELECIONADOS
