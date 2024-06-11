@@ -25,7 +25,6 @@ public class Case1 {
         System.out.println();
 
         System.out.println("CASE 4: ");
-        System.out.println("ASDJHAKLSDJAS");
     }
     public static void ligacaoCandidatos(String respostaCandidato) {
         int tentativa = 0;
