@@ -1,0 +1,10 @@
+package pilaresPOO.mensagens;
+
+public abstract class ServicoComum {
+    public abstract void enviarMensagem();
+    public abstract void receberMensagem();
+
+    protected void validarConectadoInternet(){
+        System.out.println("Conectado");
+    }
+}
